@@ -156,9 +156,9 @@
     "@navbar-default-brand-color": "@navbar-default-link-color",
     "@navbar-default-brand-hover-color": "darken(@navbar-default-brand-color, 10%)",
     "@navbar-default-brand-hover-bg": "transparent",
-    "@navbar-default-toggle-hover-bg": "#ddd",
-    "@navbar-default-toggle-icon-bar-bg": "#888",
-    "@navbar-default-toggle-border-color": "#ddd",
+    "@navbar-default-toggle-hover-bg": "lighten(@navbar-default-bg, 7%)",
+    "@navbar-default-toggle-icon-bar-bg": "#ccc",
+    "@navbar-default-toggle-border-color": "transparent",
     "@navbar-inverse-color": "lighten(@gray-light, 15%)",
     "@navbar-inverse-bg": "#08375B",
     "@navbar-inverse-border": "darken(@navbar-inverse-bg, 0%)",
@@ -166,7 +166,7 @@
     "@navbar-inverse-link-hover-color": "#fff",
     "@navbar-inverse-link-hover-bg": "transparent",
     "@navbar-inverse-link-active-color": "@navbar-inverse-link-hover-color",
-    "@navbar-inverse-link-active-bg": "darken(@navbar-inverse-bg, 10%)",
+    "@navbar-inverse-link-active-bg": "darken(@navbar-inverse-bg, 5%)",
     "@navbar-inverse-link-disabled-color": "#444",
     "@navbar-inverse-link-disabled-bg": "transparent",
     "@navbar-inverse-brand-color": "@navbar-inverse-link-color",
@@ -426,5 +426,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=6af74e59e21dfc4e07c6"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=30be95029f0fb9e20ab5"
 }
