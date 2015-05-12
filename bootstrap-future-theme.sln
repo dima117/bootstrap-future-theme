@@ -4,6 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{770A0E5B-C73E-489A-9379-8D8D243B1885}"
 	ProjectSection(SolutionItems) = preProject
 		css\bootstrap-future-theme.css = css\bootstrap-future-theme.css
+		css\bootstrap-future-theme.min.css = css\bootstrap-future-theme.min.css
 		index.html = index.html
 	EndProjectSection
 EndProject
