@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=cb7b356957d50faff2de)
- * Config saved to config.json and https://gist.github.com/cb7b356957d50faff2de
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=4c7f4a15e569c4dd51a9)
+ * Config saved to config.json and https://gist.github.com/4c7f4a15e569c4dd51a9
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -1152,7 +1152,7 @@ hr {
   margin-top: 22px;
   margin-bottom: 22px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #cccccc;
 }
 .sr-only {
   position: absolute;
@@ -1219,7 +1219,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #777777;
+  color: #999999;
 }
 h1,
 .h1,
@@ -1339,7 +1339,7 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: #eeeeee;
+  color: #999999;
 }
 .text-primary {
   color: #4178a6;
@@ -1405,7 +1405,7 @@ a.bg-danger:hover {
 .page-header {
   padding-bottom: 10px;
   margin: 44px 0 22px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #cccccc;
 }
 ul,
 ol {
@@ -1463,7 +1463,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #777777;
+  border-bottom: 1px dotted #999999;
 }
 .initialism {
   font-size: 90%;
@@ -1473,7 +1473,7 @@ blockquote {
   padding: 11px 22px;
   margin: 0 0 22px;
   font-size: 20px;
-  border-left: 5px solid #eeeeee;
+  border-left: 5px solid #cccccc;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -1486,7 +1486,7 @@ blockquote .small {
   display: block;
   font-size: 80%;
   line-height: 1.42857143;
-  color: #777777;
+  color: #999999;
 }
 blockquote footer:before,
 blockquote small:before,
@@ -1497,7 +1497,7 @@ blockquote .small:before {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #cccccc;
   border-left: 0;
   text-align: right;
 }
@@ -2249,7 +2249,7 @@ table {
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #eeeeee;
+  color: #999999;
   text-align: left;
 }
 th {
@@ -2269,11 +2269,11 @@ th {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #cccccc;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 2px solid #cccccc;
 }
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
@@ -2284,7 +2284,7 @@ th {
   border-top: 0;
 }
 .table > tbody + tbody {
-  border-top: 2px solid #dddddd;
+  border-top: 2px solid #cccccc;
 }
 .table .table {
   background-color: #294c69;
@@ -2298,7 +2298,7 @@ th {
   padding: 5px;
 }
 .table-bordered {
-  border: 1px solid #dddddd;
+  border: 1px solid #cccccc;
 }
 .table-bordered > thead > tr > th,
 .table-bordered > tbody > tr > th,
@@ -2306,17 +2306,17 @@ th {
 .table-bordered > thead > tr > td,
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > td {
-  border: 1px solid #dddddd;
+  border: 1px solid #cccccc;
 }
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {
   border-bottom-width: 2px;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #f9f9f9;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 .table-hover > tbody > tr:hover {
-  background-color: #f5f5f5;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 table col[class*="col-"] {
   position: static;
@@ -2341,14 +2341,14 @@ table th[class*="col-"] {
 .table > thead > tr.active > th,
 .table > tbody > tr.active > th,
 .table > tfoot > tr.active > th {
-  background-color: #f5f5f5;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .table-hover > tbody > tr > td.active:hover,
 .table-hover > tbody > tr > th.active:hover,
 .table-hover > tbody > tr.active:hover > td,
 .table-hover > tbody > tr:hover > .active,
 .table-hover > tbody > tr.active:hover > th {
-  background-color: #e8e8e8;
+  background-color: rgba(242, 242, 242, 0.1);
 }
 .table > thead > tr > td.success,
 .table > tbody > tr > td.success,
@@ -2444,7 +2444,7 @@ table th[class*="col-"] {
     margin-bottom: 16.5px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #dddddd;
+    border: 1px solid #cccccc;
   }
   .table-responsive > .table {
     margin-bottom: 0;
@@ -5450,7 +5450,7 @@ a.list-group-item-danger.active:focus {
 .panel > .panel-body + .table-responsive,
 .panel > .table + .panel-body,
 .panel > .table-responsive + .panel-body {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #cccccc;
 }
 .panel > .table > tbody:first-child > tr:first-child th,
 .panel > .table > tbody:first-child > tr:first-child td {

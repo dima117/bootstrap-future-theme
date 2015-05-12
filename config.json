@@ -58,10 +58,10 @@
     "@table-cell-padding": "8px",
     "@table-condensed-cell-padding": "5px",
     "@table-bg": "transparent",
-    "@table-bg-accent": "#f9f9f9",
-    "@table-bg-hover": "#f5f5f5",
+    "@table-bg-accent": "rgba(255,255,255,.2)",
+    "@table-bg-hover": "rgba(255,255,255,.1)",
     "@table-bg-active": "@table-bg-hover",
-    "@table-border-color": "#ddd",
+    "@table-border-color": "@text-color",
     "@btn-font-weight": "normal",
     "@btn-default-color": "@text-color",
     "@btn-default-bg": "transparent",
@@ -366,15 +366,15 @@
     "@pre-border-color": "#ccc",
     "@pre-scrollable-max-height": "340px",
     "@component-offset-horizontal": "180px",
-    "@text-muted": "@gray-lighter",
-    "@abbr-border-color": "@gray-light",
-    "@headings-small-color": "@gray-light",
-    "@blockquote-small-color": "@gray-light",
+    "@text-muted": "darken(@text-color, 20%)",
+    "@abbr-border-color": "@text-muted",
+    "@headings-small-color": "@text-muted",
+    "@blockquote-small-color": "@text-muted",
     "@blockquote-font-size": "(@font-size-base * 1.25)",
-    "@blockquote-border-color": "@gray-lighter",
-    "@page-header-border-color": "@gray-lighter",
+    "@blockquote-border-color": "@text-color",
+    "@page-header-border-color": "@text-color",
     "@dl-horizontal-offset": "@component-offset-horizontal",
-    "@hr-border": "@gray-lighter"
+    "@hr-border": "@text-color"
   },
   "css": [
     "print.less",
@@ -426,5 +426,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=cb7b356957d50faff2de"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=4c7f4a15e569c4dd51a9"
 }
