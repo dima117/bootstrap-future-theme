@@ -1,0 +1,13 @@
+body {
+	padding-top: 64px;
+}
+
+.btn-default:hover {
+	color: #294C69;
+	background-color: #ccc;
+	border-color: #ccc;
+}
+
+.help-block {
+	color: #bbb;
+}
