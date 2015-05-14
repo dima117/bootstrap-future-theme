@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=bc0a1a8b4b9736279af5)
- * Config saved to config.json and https://gist.github.com/bc0a1a8b4b9736279af5
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=c3b92e3571d50cf9bc57)
+ * Config saved to config.json and https://gist.github.com/c3b92e3571d50cf9bc57
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -2989,7 +2989,7 @@ select[multiple].form-group-lg .form-control {
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 200;
   text-align: center;
   vertical-align: middle;
   -ms-touch-action: manipulation;
@@ -4814,13 +4814,13 @@ a.label:focus {
   min-width: 10px;
   padding: 3px 7px;
   font-size: 14px;
-  font-weight: bold;
-  color: #ffffff;
+  font-weight: normal;
+  color: #cccccc;
   line-height: 1;
   vertical-align: baseline;
   white-space: nowrap;
   text-align: center;
-  background-color: #777777;
+  background-color: #30597b;
   border-radius: 10px;
 }
 .badge:empty {
@@ -4837,14 +4837,14 @@ a.label:focus {
 }
 a.badge:hover,
 a.badge:focus {
-  color: #ffffff;
+  color: #cccccc;
   text-decoration: none;
   cursor: pointer;
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #e2e2e2;
-  background-color: #ffffff;
+  color: #4178a6;
+  background-color: #cccccc;
 }
 .list-group-item > .badge {
   float: right;

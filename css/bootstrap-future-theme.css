@@ -12,12 +12,34 @@ input, select, textarea {
 	border-width: 0 !important;	
 }
 
-input:focus, select:focus, textarea:focus {
+.navbar-default input,
+.navbar-default select,
+.navbar-default textarea {
+	background-color: #356288;
+}
+
+.form-control:focus {
 	-webkit-box-shadow: none !important;
 	-ms-box-shadow: none !important;
 	box-shadow: none !important;
 	background-color: #79a6cb;
 	color: white;
+}
+
+.form-control:focus::-webkit-input-placeholder {
+    color: #aac7de;
+}
+
+.form-control:focus:-moz-placeholder {
+    color: #aac7de;
+}
+
+.form-control:focus::-moz-placeholder {
+    color: #aac7de;
+}
+
+.form-control:focus:-ms-input-placeholder {
+    color: #aac7de;
 }
 
 .pager li>a:hover {
@@ -29,8 +51,10 @@ input:focus, select:focus, textarea:focus {
 }
 
 
-label {
-	font-weight: normal;
+
+.label,
+.control-label {
+	font-weight: 200;	
 }
 
 .help-block {

@@ -62,7 +62,7 @@
     "@table-bg-hover": "rgba(255,255,255,.1)",
     "@table-bg-active": "@table-bg-hover",
     "@table-border-color": "@text-color",
-    "@btn-font-weight": "normal",
+    "@btn-font-weight": "200",
     "@btn-default-color": "@text-color",
     "@btn-default-bg": "transparent",
     "@btn-default-border": "darken(@btn-default-color, 10%)",
@@ -332,12 +332,12 @@
     "@thumbnail-caption-padding": "9px",
     "@well-bg": "lighten(@body-bg, 5%)",
     "@well-border": "transparent",
-    "@badge-color": "#fff",
-    "@badge-link-hover-color": "#fff",
-    "@badge-bg": "@gray-light",
-    "@badge-active-color": "@link-color",
-    "@badge-active-bg": "#fff",
-    "@badge-font-weight": "bold",
+    "@badge-color": "@text-color",
+    "@badge-link-hover-color": "@text-color",
+    "@badge-bg": "lighten(@body-bg, 5%)",
+    "@badge-active-color": "@brand-primary",
+    "@badge-active-bg": "@text-color",
+    "@badge-font-weight": "normal",
     "@badge-line-height": "1",
     "@badge-border-radius": "10px",
     "@breadcrumb-padding-vertical": "8px",
@@ -426,5 +426,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=bc0a1a8b4b9736279af5"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=c3b92e3571d50cf9bc57"
 }
