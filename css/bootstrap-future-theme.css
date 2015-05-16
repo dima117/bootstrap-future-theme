@@ -1,5 +1,6 @@
 body {
 	padding-top: 64px;
+	font-weight: 300;
 }
 
 .btn-default:hover {
@@ -8,13 +9,11 @@ body {
 	border-color: #ccc;
 }
 
-input, select, textarea {
+.form-control {
 	border-width: 0 !important;	
 }
 
-.navbar-default input,
-.navbar-default select,
-.navbar-default textarea {
+.navbar-default .form-control {
 	background-color: #356288;
 }
 
@@ -42,6 +41,14 @@ input, select, textarea {
     color: #aac7de;
 }
 
+a.list-group-item:hover .list-group-item-heading {
+	color: #294C69;
+}
+
+a.list-group-item:hover {
+	color: #294C69;
+}
+
 .pager li>a:hover {
 	color: #294C69;
 }
@@ -64,6 +71,12 @@ input, select, textarea {
 .panel, .panel-heading {
 	border-width: 0;
 }
+
+.modal-header,
+.modal-footer {
+	background-color: #213e56;
+}
+
 
 .well {
 	-webkit-box-shadow: none;
