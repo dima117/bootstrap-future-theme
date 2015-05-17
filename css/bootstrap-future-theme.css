@@ -10,7 +10,7 @@ body {
 }
 
 .form-control {
-	border-width: 0 !important;	
+	border-width: 0 !important;
 }
 
 .navbar-default .form-control {
@@ -25,21 +25,21 @@ body {
 	color: white;
 }
 
-.form-control:focus::-webkit-input-placeholder {
-    color: #aac7de;
-}
+	.form-control:focus::-webkit-input-placeholder {
+		color: #aac7de;
+	}
 
-.form-control:focus:-moz-placeholder {
-    color: #aac7de;
-}
+	.form-control:focus:-moz-placeholder {
+		color: #aac7de;
+	}
 
-.form-control:focus::-moz-placeholder {
-    color: #aac7de;
-}
+	.form-control:focus::-moz-placeholder {
+		color: #aac7de;
+	}
 
-.form-control:focus:-ms-input-placeholder {
-    color: #aac7de;
-}
+	.form-control:focus:-ms-input-placeholder {
+		color: #aac7de;
+	}
 
 a.list-group-item:hover .list-group-item-heading {
 	color: #294C69;
@@ -49,11 +49,11 @@ a.list-group-item:hover {
 	color: #294C69;
 }
 
-.pager li>a:hover {
+.pager li > a:hover {
 	color: #294C69;
 }
 
-.pager .disabled>a {
+.pager .disabled > a {
 	border-color: #999;
 }
 
@@ -61,7 +61,7 @@ a.list-group-item:hover {
 
 .label,
 .control-label {
-	font-weight: 200;	
+	font-weight: 200;
 }
 
 .help-block {
@@ -72,11 +72,24 @@ a.list-group-item:hover {
 	border-width: 0;
 }
 
-.modal-header,
-.modal-footer {
+.modal-header {
 	background-color: #213e56;
+	-ms-border-radius: 2px 2px 0 0;
+	border-radius: 2px 2px 0 0;
 }
 
+.modal-footer {
+	background-color: #213e56;
+	-ms-border-radius: 0 0 2px 2px;
+	border-radius: 0 0 2px 2px;
+}
+
+.progress
+.progress-bar {
+	-webkit-box-shadow: none;
+	-ms-box-shadow: none;
+	box-shadow: none;
+}
 
 .well {
 	-webkit-box-shadow: none;
