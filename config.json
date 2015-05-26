@@ -225,10 +225,10 @@
     "@state-danger-text": "@brand-danger",
     "@state-danger-bg": "darken(@brand-danger, 15%)",
     "@state-danger-border": "darken(@brand-danger, 15%)",
-    "@tooltip-max-width": "200px",
-    "@tooltip-color": "lighten(@body-bg, 5%)",
-    "@tooltip-bg": "rgba(255,255,255,0.85)",
-    "@tooltip-opacity": ".8",
+    "@tooltip-max-width": "270px",
+    "@tooltip-color": "@text-muted",
+    "@tooltip-bg": "darken(@body-bg, 10%)",
+    "@tooltip-opacity": "1",
     "@tooltip-arrow-width": "5px",
     "@tooltip-arrow-color": "@tooltip-bg",
     "@popover-bg": "lighten(@body-bg, 5%)",
@@ -426,5 +426,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=f43f8a0d4c7fe5ecdb69"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=235faa2a0de195fa35b5"
 }

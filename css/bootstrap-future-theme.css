@@ -96,3 +96,7 @@ a.list-group-item:hover {
 	-ms-box-shadow: none;
 	box-shadow: none;
 }
+
+.tooltip-inner {
+	font-size: 90%;
+}

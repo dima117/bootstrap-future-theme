@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=f43f8a0d4c7fe5ecdb69)
- * Config saved to config.json and https://gist.github.com/f43f8a0d4c7fe5ecdb69
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=235faa2a0de195fa35b5)
+ * Config saved to config.json and https://gist.github.com/235faa2a0de195fa35b5
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -5851,8 +5851,8 @@ button.close {
   filter: alpha(opacity=0);
 }
 .tooltip.in {
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  opacity: 1;
+  filter: alpha(opacity=100);
 }
 .tooltip.top {
   margin-top: -3px;
@@ -5871,12 +5871,12 @@ button.close {
   padding: 0 5px;
 }
 .tooltip-inner {
-  max-width: 200px;
+  max-width: 270px;
   padding: 3px 8px;
-  color: #30597b;
+  color: #999999;
   text-align: center;
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: #1b3144;
   border-radius: 3px;
 }
 .tooltip-arrow {
@@ -5891,56 +5891,56 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
-  border-top-color: rgba(255, 255, 255, 0.85);
+  border-top-color: #1b3144;
 }
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
   right: 5px;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
-  border-top-color: rgba(255, 255, 255, 0.85);
+  border-top-color: #1b3144;
 }
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
   left: 5px;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
-  border-top-color: rgba(255, 255, 255, 0.85);
+  border-top-color: #1b3144;
 }
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
-  border-right-color: rgba(255, 255, 255, 0.85);
+  border-right-color: #1b3144;
 }
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
   margin-top: -5px;
   border-width: 5px 0 5px 5px;
-  border-left-color: rgba(255, 255, 255, 0.85);
+  border-left-color: #1b3144;
 }
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: rgba(255, 255, 255, 0.85);
+  border-bottom-color: #1b3144;
 }
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
   right: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: rgba(255, 255, 255, 0.85);
+  border-bottom-color: #1b3144;
 }
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
   left: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: rgba(255, 255, 255, 0.85);
+  border-bottom-color: #1b3144;
 }
 .popover {
   position: absolute;
