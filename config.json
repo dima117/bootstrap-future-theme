@@ -357,13 +357,13 @@
     "@close-font-weight": "bold",
     "@close-color": "#fff",
     "@close-text-shadow": "0 1px 0 #000",
-    "@code-color": "#c7254e",
-    "@code-bg": "#f9f2f4",
+    "@code-color": "lighten(@brand-primary, 10%)",
+    "@code-bg": "darken(@body-bg, 7%)",
     "@kbd-color": "#fff",
     "@kbd-bg": "#333",
-    "@pre-bg": "#f5f5f5",
-    "@pre-color": "@gray-dark",
-    "@pre-border-color": "#ccc",
+    "@pre-bg": "darken(@body-bg, 5%)",
+    "@pre-color": "@code-color",
+    "@pre-border-color": "@brand-primary",
     "@pre-scrollable-max-height": "340px",
     "@component-offset-horizontal": "180px",
     "@text-muted": "darken(@text-color, 20%)",
@@ -426,5 +426,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=02a5dceba89b234fccfd"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=7c76ea1aae6b60dd8d4c"
 }
