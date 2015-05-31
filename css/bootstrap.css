@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=7c76ea1aae6b60dd8d4c)
- * Config saved to config.json and https://gist.github.com/7c76ea1aae6b60dd8d4c
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=e9fb12a7e4a13f2c8b49)
+ * Config saved to config.json and https://gist.github.com/e9fb12a7e4a13f2c8b49
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -1136,7 +1136,7 @@ img {
   padding: 4px;
   line-height: 1.42857143;
   background-color: #294c69;
-  border: 1px solid #dddddd;
+  border: 1px solid #999999;
   border-radius: 3px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -4899,7 +4899,7 @@ a.badge:focus {
   margin-bottom: 25px;
   line-height: 1.42857143;
   background-color: #294c69;
-  border: 1px solid #dddddd;
+  border: 1px solid #999999;
   border-radius: 3px;
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;

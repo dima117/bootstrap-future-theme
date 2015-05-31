@@ -326,7 +326,7 @@
     "@panel-danger-heading-bg": "@state-danger-bg",
     "@thumbnail-padding": "4px",
     "@thumbnail-bg": "@body-bg",
-    "@thumbnail-border": "#ddd",
+    "@thumbnail-border": "@text-muted",
     "@thumbnail-border-radius": "@border-radius-base",
     "@thumbnail-caption-color": "@text-color",
     "@thumbnail-caption-padding": "9px",
@@ -426,5 +426,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=7c76ea1aae6b60dd8d4c"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=e9fb12a7e4a13f2c8b49"
 }
